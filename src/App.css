@@ -1,0 +1,44 @@
+.main-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-container img{
+  margin: 10px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: grey;
+  color: #fff;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.container h1{
+  margin: 0;
+}
+
+.container input{
+  width: 360px;
+  height: 26px;
+  outline: none;
+  font-size: 16px;
+}
+
+.button-group{
+  float: right;
+}
+
+.button-group button{
+  margin: 10px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+}
